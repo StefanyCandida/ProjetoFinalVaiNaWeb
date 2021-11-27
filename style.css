@@ -6,6 +6,10 @@
      font-family: roboto , sans-serif;
      list-style:none;
      }
+     body{
+       width: 100%;
+       height: 400vh;
+     }
 
     header{
       width:100%;
@@ -62,7 +66,7 @@
     .vermelho-nav{
       width: 100%;
       height: 380vh;         
-          background-image: url(./img/sta\ uo\ robot@2x.png);
+      background-image: url(./img/sta\ uo\ robot@2x.png);
       background-repeat: no-repeat;
       background-size: 40%; 
     
@@ -101,34 +105,40 @@
       bottom: 10%; 
       display:flex;
       justify-content: space-around;
-      border-top: 25px gray solid;
+      border-top: 10px gray solid;
 
     }
         
      .person {
       width:60%;
-      height: 50%;   
+      height:55%;   
     
      }
    
     h1{  
-      width:70%;
+      width:30%;
       text-align: end;
-      font-size:150px;
-      font-weight:normal;
-      margin-bottom:90px;
+      font-size:50px;    
+      margin-bottom:80px;
+      position: absolute;
+      top: 3%;
+      right: 30%;
+    }
+    span{
+      font-weight: 900;
     }
     nav{
        width:45%;
        height: auto;
        position:absolute;
+       top: 13%;
       left:25%;      
      
     }
     li{
-      font-size:65px;
+      font-size:25px;
       text-align: end;  
-      margin-bottom:70px;
+      margin-bottom:35px;
         
 
     }
@@ -138,10 +148,133 @@
     main{
       
       width: 100%;
-      height: 4%;
-      
+      height: 60%;
+     background-color: DimGrey;
+      position: relative;
+      top: 42.6%;
+      z-index: -2;      
       
     }
-    footer{
+    .atributos{
+      padding: 5%;
+      font-size: 35px;
+      font-weight: 900;
+      color: #ffffff;
+    }
+    
+    .batalhas{
+      width: 70%;
+      height: 25%;
+      display: flex;
+      justify-content: center;
+      align-items: center;   
+      position: relative;
+      left: 15%;
+       
+      }
+  .mayor {
+    width:50%;
+    height:80%;   
+    position: absolute;  
+    right: 50%;
+    top: 2%;
+    
+      }
+  .ma1{
+    position: absolute;
+    bottom: 58%;
+    right: 26.5%;
+    width:23.5%;
+    
+  }
+  .ma2{
+    position: absolute;
+    bottom: 58%;
+    right: 3%;
+    width: 23.5%;
+ 
+  }
+  .ma3{
+    position: absolute;
+    top: 42%;
+    right: 26.5%;
+    width: 23.5%;
+  }
+  .ma4{
+    position: absolute;
+    top: 42%;
+    right: 3%;
+    width: 23.5%;
+  }
+
+
+  .sobrepor{
+    position: absolute;
+    bottom:59%;
+    right: 26%;
+    width: 25%;
+ 
+
+  }   
+    .hierarquia{
+      width: 69%;   
+      height: 40%;   
+      position: absolute;
+      left: 15%;     
+      top: 41%; 
+
+    }
+    .hierarquia img{
+      width: 100%;
+      height: 100%;
+ 
+    }
+    
+    figcaption{
+      width:50%;
+      text-align: end;
+     
+      position: absolute;
+      left: 50%;
+
+    }
+.como{
+  width: 100%;
+  height: 25%;
+  padding: 15%;
+  text-align: center;
+font-size: 35px;
+font-weight: 900;
+  color: #ffffff;
+  
+
+}
+.end-main{
+  width: 70%;
+  display: flex;
+  position: absolute;
+  top: 85%;
+  left: 15%;
+}
+.explorar{
+  width: 70%;
+  display: flex;
+  justify-content:space-between;
+  align-items: flex-end;
+  
+  
+}
+ footer{
+      width: 100%;
+      height: 25%;
+      border: red solid;
+      position: relative;
+      top: 60%;
+
+    }
+    .app{
+      width: 45%;
+      height: 100%;
       background-color: tomato;
+      
     }
