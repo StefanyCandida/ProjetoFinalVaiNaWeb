@@ -497,3 +497,495 @@ justify-content: space-between;
   left: 36%;
  display: flex;
 }
+
+
+@media(max-width: 574px) {
+  
+ *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ font-family: roboto , sans-serif;
+ list-style:none;
+ }
+ body{
+   width: 100%;
+   height: 230vh;
+ }
+
+header{
+  width:100%;
+  height: 49vh;
+  background-image: url(./img/star-topo.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
+}
+
+.cabecalho{
+    width:100%;
+    height: 100%;
+    position: relative;
+}
+.star-wars{
+    width:70%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+         
+}
+.star-wars img.star{
+  width: 21%;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+}
+.star-wars img.wars{
+  width: 21%;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+
+}
+
+.kylo{
+  width: 85%;
+  height: 100%;
+  position: absolute; 
+  top: 10%;
+  left: 5%;
+     
+
+}
+.legiao{
+  width: 15%;
+  height: 30%;
+  position: absolute;
+  top: 78%;
+  left: 84%;
+
+
+}
+.legiao-p{
+ width: 100%;
+ height: 22%;
+ font-size: 10px;
+
+}
+.legiao-hr{
+ width: 80%;
+margin: 6% 0;
+
+}
+.seta{
+ width: 15%;
+ text-align: center;
+ background-color: grey;
+ font-size: 80%;
+ font-weight: 900;
+ cursor: pointer;
+}
+
+
+.vermelho-jogo{
+  width: 100%;
+  height: 130vh;         
+  background-image: url(./img/sta\ uo\ robot.png);
+  background-repeat: no-repeat;
+  background-size:60%; 
+  display: flex;
+justify-content: flex-end;
+position: relative;
+z-index: -2;
+
+
+}
+.vermelho{
+  width: 50%;
+  height: 50%; 
+  background-image: url(./img/strom\ trupe\ red.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 35%;
+  left:45%;
+  
+     
+  
+}
+.comece{
+  text-align: center;
+  width: 100%;
+  height: 25%;
+  color: #ffffff;     
+ display: flex;
+
+ 
+}
+
+.baixe{
+  width: 90%;
+  font-size: 80%;
+  color: #ffffff;
+  padding: 15% 0 0 10%;
+
+}
+.donw-comece{
+  width: 50%;
+  height: 10%;
+  text-align: center;
+  color: #ffffff;
+  margin:  10% 25%;
+  border: #ffffff solid;
+  border-radius: 20% ;
+  background-color: transparent;
+ 
+  }
+  .donw-comece:hover{
+    cursor: pointer;
+    transition: box-shadow 1s;
+    box-shadow: inset  20vw 0  green;
+   }
+   .atualizacao{
+     font-size: 12px;
+     text-align: end;
+     color: silver;
+   }
+
+.jogo{
+  width: 55%;
+  height: 35%;
+  position: absolute;
+  top: 70%;
+ 
+
+}
+.jogo img{
+  width: 90%;
+  height: 90%;
+}
+.personagem-nav{
+  width: 90%;
+  height: 130%;
+  position: relative; 
+  top: 85%; 
+  left: 10%;
+  display:flex;
+  justify-content: space-between;   
+
+}
+
+.sobre{
+  width: 50%;     
+ position: absolute;
+ top: 105%;
+ right: 7%;
+
+}
+.battlefront{
+  font-size: 13px;
+ text-align: end;
+}  
+ .sobre-hr{
+ width: 30%;
+ size: 5px;
+ margin: 5% 0 5% 70%;    
+
+
+}
+h1{
+  text-align: end;
+  margin-bottom: 5%;   
+ }
+   
+.persona img{
+  width:100%;
+  height:100%;  
+
+}
+.person-hr{
+  width: 150%;
+}
+  
+
+.estrutura{  
+  width:20%;
+  text-align: end;       
+  margin-bottom:10px;
+  font-size: 15px;
+  font-weight: 600;
+
+  }
+span{
+  font-weight: 900;
+}
+nav{
+   width:45%;
+   height: auto;
+   position:absolute;
+   top: 25%;
+   left:25%;      
+ 
+}
+li{
+  font-size:10px;
+  text-align: end;  
+  margin-bottom:10px;
+    
+
+}
+li:hover{
+  background-color:tomato;
+}
+main{
+  border: solid forestgreen; 
+  width: 100%;
+  height: 350vh;
+ background-color: DimGrey;
+  position: relative;
+  top: 96%;
+  z-index: -2;
+  display: flex;      
+  
+}
+.atributos{
+  font-size: 35px;
+  font-weight: 900;
+  color: #ffffff;
+  position: absolute;
+  left: 20%;
+  top: 5%;
+  
+}
+
+.batalhas{
+  width: 90%;
+  height: 60%;
+  position: relative;
+  top: 10%;
+  left: 5%;   
+  border: solid forestgreen;        
+   
+  }
+   
+.mayor, .ma1, .ma2, .ma3, .ma4{
+width:95%;
+height:22%; 
+
+
+}
+.mayor:hover{
+background-image: url(./img/urn_aaid_sc_US_aaf75fc2-eba3-41ec-bc48-de80d0615154.png);
+background-repeat: no-repeat;
+background-size: 90%;
+
+
+}
+.ma1:hover{
+background-image: url(./img/urn_aaid_sc_US_aaf75fc2-eba3-41ec-bc48-de80d0615154.png);
+background-repeat: no-repeat;
+background-size: 100%;
+  
+
+
+}
+.ma2:hover{
+background-image: url(./img/urn_aaid_sc_US_aaf75fc2-eba3-41ec-bc48-de80d0615154.png);
+background-repeat: no-repeat;
+background-size: 100%;
+  
+
+}
+
+.ma3:hover{
+background-image: url(./img/urn_aaid_sc_US_aaf75fc2-eba3-41ec-bc48-de80d0615154.png);
+background-repeat: no-repeat;
+background-size: 100%;
+  
+
+}
+
+.ma4:hover{
+background-image: url(./img/urn_aaid_sc_US_aaf75fc2-eba3-41ec-bc48-de80d0615154.png);
+background-repeat: no-repeat;
+background-size: 100%;     
+
+}
+
+.hierarquia{
+  width: 85%;   
+  height: 18%;   
+  position: absolute;
+  left: 10%;     
+  top: 75%; 
+
+}
+.hierarquia img{
+  width: 100%;
+  height: 100%;
+
+}
+
+figcaption{
+  width:48%;
+  text-align: end;  
+  font-size: 10px;   
+  position: absolute;
+  left: 42%;
+  color: #ffffff;
+
+}
+.como{
+width: 80%;
+height: 80%;
+padding: 15%;
+text-align: end;
+font-size: 35px;
+font-weight: 900;
+color: #ffffff;
+
+
+}
+.end-main{
+width: 99%;
+height: 35%;
+position: absolute;
+top: 105%;
+left: auto;
+border: red solid;
+}
+.capa-preta{
+width: 40%;
+height: 100%;
+position: absolute;
+right: 85%;
+}
+.escolher{
+
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+justify-content: flex-end;
+padding-top: 15%;
+}
+
+.explorar{
+width: 55%;
+height: 30%;
+display: flex;
+
+
+}
+
+
+h3{
+font-size: 35px;
+font-weight: normal;   
+}
+.escolher-donw{
+width: 50%;
+height: 30%;
+text-align: center;
+color: #ffffff;
+background-color: black;
+
+}
+
+
+.escolher-donw:hover{
+cursor: pointer; 
+transition: box-shadow 5s;
+box-shadow: inset  20vw 0  red;
+}
+
+.text-escolher{
+width: 40%;
+height: 20%;
+font-size: 15px;
+text-align: center;
+
+}
+footer{
+width: 100%;
+height: 88%;
+position: relative;
+top:155%;
+  
+}
+.footer-app{
+width: 100%;
+height: 50%;
+background-color: rgba(235, 101, 48, 0.753);
+position: relative;
+
+
+        
+} 
+.app-texto{
+width: 95%;
+height: 95%;
+padding-left: 25%;
+
+
+}
+.app{
+width: 50%;
+height: 13%;
+font-size: 30px;  
+margin-bottom: 3%;
+color: #ffffff; 
+font-weight: 900; 
+
+}
+.footer-hr{
+margin: 5% 0;
+width: 50%;
+
+}
+.texto{
+width: 85%;
+font-size: 10px;    
+color: #ffffff;
+}
+
+.baixar{
+width: 80%;
+height: 13%;
+margin-top: 5%;
+display: flex;
+justify-content: space-between;
+
+}
+.baixar img{
+width: 47%;
+height: 100%;
+
+}
+.esta{
+
+width: 65%;
+height: 40%;
+margin: 10% 0 5% 0;
+}
+
+.darth{
+  
+  width: 30%;
+  height: 40%;
+}
+
+
+
+
+
+
+  
+}
+
+
+
