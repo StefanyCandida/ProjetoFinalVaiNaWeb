@@ -265,10 +265,10 @@
       
   .mayor {
     width:50%;
-    height:95%;   
+    height:85%;   
     position: absolute;  
     left:1%;
-    top: 1%;
+    top: 6%;
   
     
    }
@@ -476,10 +476,14 @@ color: #ffffff;
 justify-content: space-between;
 }
 .baixar img{
-  width: 47%;
+  width: 100%;
   height: 100%;
   
 }
+.baixar-play{
+  border-radius: 12%;
+}
+
 .esta{
  
   width: 45%;
@@ -499,7 +503,7 @@ justify-content: space-between;
 }
 
 
-@media(max-width: 574px) {
+@media(max-width: 600px) {
   
  *{
   padding: 0;
@@ -538,23 +542,23 @@ header{
 .star-wars img.star{
   width: 21%;
   position: absolute;
-  top: 50%;
+  top: 57%;
   left: 25%;
 }
 .star-wars img.wars{
   width: 21%;
   position: absolute;
-  top: 50%;
+  top: 57%;
   right: 5%;
 
 }
 
 .kylo{
-  width: 85%;
+  width: 80%;
   height: 100%;
   position: absolute; 
-  top: 10%;
-  left: 5%;
+  top: 14%;
+  left: 9%;
      
 
 }
@@ -603,14 +607,14 @@ z-index: -2;
 }
 .vermelho{
   width: 50%;
-  height: 50%; 
+  height: 60%; 
   background-image: url(./img/strom\ trupe\ red.png);
   background-repeat: no-repeat;
   background-size: 100%;
   display: flex;
   flex-direction: column;
   position: absolute;
-  bottom: 35%;
+  bottom: 30%;
   left:45%;
   
      
@@ -659,7 +663,7 @@ z-index: -2;
   width: 55%;
   height: 35%;
   position: absolute;
-  top: 70%;
+  top: 75%;
  
 
 }
@@ -669,9 +673,9 @@ z-index: -2;
 }
 .personagem-nav{
   width: 90%;
-  height: 130%;
+  height: 120%;
   position: relative; 
-  top: 85%; 
+  top: 95%; 
   left: 10%;
   display:flex;
   justify-content: space-between;   
@@ -681,7 +685,7 @@ z-index: -2;
 .sobre{
   width: 50%;     
  position: absolute;
- top: 105%;
+ top: 110%;
  right: 7%;
 
 }
@@ -707,7 +711,7 @@ h1{
 
 }
 .person-hr{
-  width: 150%;
+  width: 180%;
 }
   
 
@@ -741,9 +745,9 @@ li:hover{
   background-color:tomato;
 }
 main{
-  border: solid forestgreen; 
+
   width: 100%;
-  height: 350vh;
+  height: 380vh;
  background-color: DimGrey;
   position: relative;
   top: 96%;
@@ -757,47 +761,75 @@ main{
   color: #ffffff;
   position: absolute;
   left: 20%;
-  top: 5%;
+  top: 3.5%;
   
 }
 
 .batalhas{
   width: 90%;
-  height: 60%;
-  position: relative;
-  top: 10%;
-  left: 5%;   
-  border: solid forestgreen;        
-   
-  }
-   
-.mayor, .ma1, .ma2, .ma3, .ma4{
-width:95%;
-height:22%; 
+  height: 65%;  
+ display: flex;
+flex-direction: column;
+justify-content: center;
+  align-items: center;
+  position: relative;   
+  top: 7%;
+}
 
+
+   
+.mayor{
+width:95%;
+height:20%; 
+display: flex;
+flex-direction: column;
+position: absolute;
+top: 1%;
 
 }
+
 .mayor:hover{
 background-image: url(./img/urn_aaid_sc_US_aaf75fc2-eba3-41ec-bc48-de80d0615154.png);
 background-repeat: no-repeat;
-background-size: 90%;
+background-size: 100%;
+background-color: magenta;
 
-
+}
+.ma1{
+  width: 95%;
+  height: 20%;
+  position: absolute;
+  left: 1%;
+  top: 21%;
 }
 .ma1:hover{
 background-image: url(./img/urn_aaid_sc_US_aaf75fc2-eba3-41ec-bc48-de80d0615154.png);
 background-repeat: no-repeat;
 background-size: 100%;
-  
+background-color: blue;
 
 
+}
+.ma2{
+  width: 95%;
+  height: 20%;
+  position: absolute;
+  left: 1%;
+  top: 41%;
 }
 .ma2:hover{
 background-image: url(./img/urn_aaid_sc_US_aaf75fc2-eba3-41ec-bc48-de80d0615154.png);
 background-repeat: no-repeat;
 background-size: 100%;
-  
 
+  
+}
+.ma3{
+  width: 95%;
+  height: 20%;
+  position: absolute;
+  left: 1%;
+  top:61%;
 }
 
 .ma3:hover{
@@ -807,7 +839,13 @@ background-size: 100%;
   
 
 }
-
+.ma4{
+  width: 95%;
+  height: 20%;
+  position: absolute;
+  left: 1%;
+  top:81%;
+}
 .ma4:hover{
 background-image: url(./img/urn_aaid_sc_US_aaf75fc2-eba3-41ec-bc48-de80d0615154.png);
 background-repeat: no-repeat;
@@ -820,7 +858,7 @@ background-size: 100%;
   height: 18%;   
   position: absolute;
   left: 10%;     
-  top: 75%; 
+  top: 74%; 
 
 }
 .hierarquia img{
@@ -834,7 +872,7 @@ figcaption{
   text-align: end;  
   font-size: 10px;   
   position: absolute;
-  left: 42%;
+  left: 50%;
   color: #ffffff;
 
 }
@@ -853,9 +891,9 @@ color: #ffffff;
 width: 99%;
 height: 35%;
 position: absolute;
-top: 105%;
+top: 100%;
 left: auto;
-border: red solid;
+
 }
 .capa-preta{
 width: 40%;
@@ -887,6 +925,7 @@ h3{
 font-size: 35px;
 font-weight: normal;   
 }
+
 .escolher-donw{
 width: 50%;
 height: 30%;
@@ -944,7 +983,7 @@ font-weight: 900;
 }
 .footer-hr{
 margin: 5% 0;
-width: 50%;
+width: 80%;
 
 }
 .texto{
@@ -962,7 +1001,7 @@ justify-content: space-between;
 
 }
 .baixar img{
-width: 47%;
+width: 100%;
 height: 100%;
 
 }
