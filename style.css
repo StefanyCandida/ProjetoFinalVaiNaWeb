@@ -56,12 +56,35 @@
          
   
     }
-    .kylo-legiao img.legiao{
-      width: 8%;
+    .legiao{
+      width: 10%;
+      height: 20%;
       position: absolute;
       top: 78%;
       left: 85%;
+   
     }
+   .legiao-p{
+     width: 100%;
+     height: 22%;
+     font-size: 20px;
+    
+   }
+   .legiao-hr{
+     width: 80%;
+    margin: 6% 0;
+
+   }
+   .seta{
+     width: 8%;
+     text-align: center;
+     background-color: grey;
+     font-size: 80%;
+     font-weight: 900;
+     cursor: pointer;
+   }
+   
+
 .vermelho-jogo{
       width: 100%;
       height: 130vh;         
@@ -91,6 +114,7 @@
       height: 45%;
       color: #ffffff;     
      padding: 20%;
+     
     }
 
     .baixe{
@@ -98,7 +122,7 @@
       font-size: 80%;
       color: #ffffff;
       padding: 15% 0 0 10%;
-      ;
+    
     }
     .donw-comece{
       width: 50%;
@@ -107,9 +131,20 @@
       color: #ffffff;
       margin:  10% 25%;
       border: #ffffff solid;
-      border-radius: 15%;
+      border-radius: 20% ;
       background-color: transparent;
-    }
+     
+      }
+      .donw-comece:hover{
+        cursor: pointer;
+        transition: box-shadow 1s;
+        box-shadow: inset  20vw 0  green;
+       }
+       .atualizacao{
+         font-size: 12px;
+         text-align: end;
+         color: silver;
+       }
 
     .jogo{
       width: 30%;
@@ -131,32 +166,40 @@
       bottom: 65%; 
       left: 20%;
       display:flex;
-      justify-content: space-between;
-   
+      justify-content: space-between;   
 
     }
     
     .sobre{
       width: 25%;     
      position: absolute;
-     top: 120%;
-     right: 31%;
+     top: 130%;
+     right: 32%;
     }
     .battlefront{
       font-size: 13px;
      text-align: end;
-    } 
+    }  
+     .sobre-hr{
+     width: 30%;
+     size: 5px;
+     margin: 5% 0 5% 70%;    
+
+
+   }
+    h1{
+      text-align: end;
+      margin-bottom: 5%;   
+     }
+       
     .persona img{
       width:100%;
       height:100%;  
     
     }
-   
-    h1{
-      text-align: end;
-      margin-bottom: 5%;   
-     }
-        
+    .person-hr{
+      width: 190%;
+    }
       
    
     .estrutura{  
@@ -179,7 +222,7 @@
      
     }
     li{
-      font-size:12px;
+      font-size:15px;
       text-align: end;  
       margin-bottom:20px;
         
@@ -191,7 +234,7 @@
     main{
       
       width: 100%;
-      height: 250vh;
+      height: 200vh;
      background-color: DimGrey;
       position: relative;
       top: 56.5%;
@@ -204,74 +247,98 @@
       color: #ffffff;
       position: absolute;
       left: 20%;
-      top: 8%;
+      top: 10%;
       
     }
     
     .batalhas{
       width: 80%;
-      height: 25%;
+      height: 30%;
       display: flex;
       justify-content: center;
       align-items: center;   
       position: relative;
-      top: 12%;
-      left: 10%;
-     
+      top: 15%;
+      left: 10%;          
        
       }
       
   .mayor {
-    width:40%;
-    height:90%;   
+    width:50%;
+    height:95%;   
     position: absolute;  
-    right: 60%;
-    top: 5%;
+    left:1%;
+    top: 1%;
+  
     
    }
+  .mayor:hover{
+    background-image: url(./img/urn_aaid_sc_US_aaf75fc2-eba3-41ec-bc48-de80d0615154.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    
+  }
   
   .ma1{
     position: absolute;
-    bottom: 50%;
-    right: 35%;
-    width:25%;
+    bottom: 52%;
+    right: 25%;
+    width:24%;
     
   }
+  .ma1:hover{
+    background-image: url(./img/urn_aaid_sc_US_aaf75fc2-eba3-41ec-bc48-de80d0615154.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+      
+   
+ }
   .ma2{
     position: absolute;
-    bottom: 50%;
-    right: 10%;
-    width: 25%;
+    bottom: 52%;
+    left: 75%;
+    width: 24%;
  
   }
+  .ma2:hover{
+    background-image: url(./img/urn_aaid_sc_US_aaf75fc2-eba3-41ec-bc48-de80d0615154.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+      
+   
+ }
   .ma3{
     position: absolute;
-    top: 50%;
-    right: 35%;
-    width: 25%;
+    top: 48%;
+    right: 25%;
+    width: 24%;
   }
+  .ma3:hover{
+    background-image: url(./img/urn_aaid_sc_US_aaf75fc2-eba3-41ec-bc48-de80d0615154.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+      
+   
+ }
   .ma4{
     position: absolute;
-    top: 50%;
-    right: 10%;
-    width: 25%;
+    top: 48%;
+    left:75%;
+    width: 24%;
   }
-
-
-  .sobrepo{
-    position: absolute;
-    bottom:50%;
-    right: 34%;
-    width: 27%;
+  .ma4:hover{
+    background-image: url(./img/urn_aaid_sc_US_aaf75fc2-eba3-41ec-bc48-de80d0615154.png);
+    background-repeat: no-repeat;
+    background-size: 100%;     
+   
+ }
  
-
-  }   
     .hierarquia{
-      width: 75%;   
-      height: 40%;   
+      width: 80%;   
+      height: 38%;   
       position: absolute;
       left: 10%;     
-      top: 40%; 
+      top: 45%; 
 
     }
     .hierarquia img{
@@ -285,7 +352,7 @@
       text-align: end;  
       font-size: 10px;   
       position: absolute;
-      left: 52%;
+      left: 42%;
       color: #ffffff;
 
     }
@@ -309,6 +376,11 @@ font-weight: 900;
   left: 15%; 
   border: regd solid;
 }
+.capa-preta{
+  width: 50%;
+  height: 40%;
+  display: flex;
+}
 .escolher{
 
   width: 90%;
@@ -324,71 +396,80 @@ font-weight: 900;
   justify-content:space-around;
   align-items: center;
   flex-direction: column; 
- 
-    
-}.escolher-donw{
-  width: 60%;
-  height: 30%;
-text-align: center;
-color: #ffffff;
- background-color: red;
-
 }
-.escolher-explorar{
-  width: 60%;
-  height: 30%;
+
+ 
+ h3{
+  font-size: 35px;
+  font-weight: normal;   
+ }
+.escolher-donw{
+  width: 50%;
+  height: 20%;
 text-align: center;
 color: #ffffff;
  background-color: black;
 
 }
+
+
+.escolher-donw:hover{
+  cursor: pointer; 
+  transition: box-shadow 5s;
+  box-shadow: inset  20vw 0  red;
+ }
+
 .text-escolher{
-  width: 45%;
-  font-size: 10px;
+  width: 40%;
+  height: 20%;
+  font-size: 15px;
   text-align: center;
-
+ 
 }
-
  footer{
    width: 100%;
    height: 38%;
    border: rd solid;
    position: relative;
-   top: 95%;
+   top: 85%;
       
 }
  .footer-app{
-   width: 45%;
+   width: 50%;
    height: 100%;
-  background-color: tomato;
+  background-color: rgba(235, 101, 48, 0.753);
   position: relative;
             
 } 
 .app-texto{
-  width: 75%;
+  width: 95%;
   height: 95%;
-  border: green solid;
-  padding: 10%;
+  padding: 15%;
+  
   
 }
 .app{
   width: 50%;
   height: 13%;
-  font-size: 20px;  
+  font-size: 30px;  
   margin-bottom: 3%;
-  color: #ffffff;  
-  border: red solid;
+  color: #ffffff; 
+  font-weight: 900; 
+ 
+}
+.footer-hr{
+  margin: 5% 0;
+  width: 50%;
+
 }
 .texto{
   width: 85%;
-  font-size: 10px ;  
-  border: red solid;
+  font-size: 10px;    
   color: #ffffff;
 }
 
 .baixar{
-  border: red solid;
-  width: 86%;
+  width: 80%;
   height: 13%;
   margin-top: 5%;
   display: flex;
@@ -400,10 +481,10 @@ justify-content: space-between;
   
 }
 .esta{
-  border: red solid;
+ 
   width: 45%;
-  height: 25%;
-  margin: 15% 0 5% 0;
+  height: 30%;
+  margin: 10% 0 5% 0;
   display: flex;
 
 }
@@ -414,42 +495,5 @@ justify-content: space-between;
   position: absolute;
   bottom: 15%;
   left: 36%;
- border: red solid;
  display: flex;
-}
-@media screen and (max-width: 516px){
-
-body{
-  width: 100%;
-  height: 280Vh;
-}
-header{
-  width:100%;
-  height: 30vh;
-  background-image: url(./img/star-uó-topo.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-.vermelho-nav{
-  width: 100%;
-  height: 200vh;         
-  background-image: url(./img/sta\ uo\ robot@2x.png);
-  background-repeat: no-repeat;
-  background-size: 80%; 
-}
-.vermelho-jogo{
-      width: 100%;
-      height: 30%; 
-      display: flex;
-      flex-direction: column;
-      
-}
- .vermelho-jogo img.vermelho{
-      width:20%;
-      height:50%;
-      position: absolute;
-      bottom:38%;
-      left: 17%;
-
-}
 }
