@@ -17,6 +17,10 @@ header{
       background-repeat: no-repeat;
       background-size: 100%;      
     }
+    a{
+      color:#ffffff;    
+      text-decoration: none;
+    }
 .cabecalho{
         width:100%;
         height: 100%;
@@ -95,20 +99,24 @@ header{
       left: 15%;      
     }
     .comece{
+      display:flex;
+      align-items:center;
+      justify-content:center;
       text-align: center;
       width: 100%;
-      height: 45%;
-      color: #ffffff;     
-     padding: 20%;     
+      height:50%;
+      font-size:35px;
+      color: #ffffff;          
+      
     }
 
     .baixe{
       width: 90%;
       font-size: 80%;
       color: #ffffff;
-      padding: 15% 0 0 10%;    
+      padding: 0 0 0 10%;    
     }
-    .donw-comece{
+    .btn-comece{
       width: 50%;
       height: 10%;
       text-align: center;
@@ -118,15 +126,18 @@ header{
       border-radius: 20% ;
       background-color: transparent;     
       }
- .donw-comece:hover{
+ .btn-comece:hover{
         cursor: pointer;
-        transition: box-shadow 1s;
-        box-shadow: inset  20vw 0  green;
+        transition: box-shadow 5s;
+        box-shadow: inset  20vw 0  magenta;
        }
   .atualizacao{
-         font-size: 12px;
-         text-align: end;
-         color: silver;
+     font-size: 12px;
+     color: silver;
+     width:90%;
+    font-size: 10px;
+    text-align:end;
+    color: silver;
        }
 
     .jogo{
@@ -191,21 +202,23 @@ h1{
       position: absolute;
       top: 5%;
       right: 30%;
+      font-size: 40px;
       }
 span{
       font-weight: 900;
     }
 nav{
-       width:45%;
-       height: auto;
+       width:35%;
+       height: 55%;
        position:absolute;
        top: 25%;
-       left:25%; 
+       left:35%; 
       }
 li{
-      font-size:15px;
+  width:100%;
+   font-size:20px;
       text-align: end;  
-      margin-bottom:20px;       
+      margin-bottom:15px;       
     }
     li:hover{
       background-color:tomato;
@@ -350,18 +363,19 @@ font-weight: 900;
 
 .explorar{
   width: 35%;
-  height: 35%;
+  height: 55%;
   display: flex;
   justify-content:space-around;
   align-items: center;
   flex-direction: column; 
-} 
+ } 
 h3{
   font-size: 35px;
+  margin-bottom:35%;
   font-weight: normal;   
  }
 .escolher-donw{
-  width: 50%;
+  width: 70%;
   height: 20%;
   text-align: center;
   color: #ffffff;
@@ -373,7 +387,7 @@ h3{
   box-shadow: inset  20vw 0  red;
  }
  .hr-escolher-donw{
-  width:30%;
+  width:40%;
   height:2%;
   background-color:black;
 }
@@ -411,8 +425,8 @@ h3{
 }
 .footer-hr{
   margin: 5% 0;
-  width: 70%;
-  height:1%;
+  width: 80%;
+  height:2%;
   background-color:tomato;
 }
 .texto{
@@ -473,7 +487,7 @@ justify-content: space-between;
  }
 header{
   width:100%;
-  height: 49vh;
+  height: 48vh;
   background-image: url(./img/star-topo.png);
   background-repeat: no-repeat;
   background-size: 100%; 
@@ -493,22 +507,22 @@ header{
 .star-wars img.star{
   width: 21%;
   position: absolute;
-  top: 57%;
-  left: 25%;
+  top: 55%;
+  left: 20%;
 }
 .star-wars img.wars{
   width: 21%;
   position: absolute;
-  top: 57%;
-  right: 5%;
+  top: 55%;
+  right: 14%;
 }
 .kylo{
-  width: 80%;
+  width: 70%;
   height: 100%;
   position: absolute; 
-  top: 14%;
-  left: 9%;    
-}
+  top: 10%;
+  left: 9%;
+ }
 .legiao{
   width: 15%;
   height: 30%;
@@ -561,36 +575,18 @@ z-index: -2;
 .comece{
   text-align: center;
   width: 100%;
-  height: 25%;
+  height: 50%;
   color: #ffffff;     
  display: flex;
+
 }
 .baixe{
   width: 90%;
   font-size: 80%;
   color: #ffffff;
-  padding: 15% 0 0 10%;
+  padding: 0 0 0 10%;
 }
-.donw-comece{
-  width: 50%;
-  height: 10%;
-  text-align: center;
-  color: #ffffff;
-  margin:  10% 25%;
-  border: #ffffff solid;
-  border-radius: 20% ;
-  background-color: transparent; 
-  }
-  .donw-comece:hover{
-    cursor: pointer;
-    transition: box-shadow 1s;
-    box-shadow: inset  20vw 0  green;
-   }
-   .atualizacao{
-     font-size: 12px;
-     text-align: end;
-     color: silver;
-   }
+
 .jogo{
   width: 55%;
   height: 35%;
@@ -611,7 +607,7 @@ z-index: -2;
   justify-content: space-between;   
 }
 .sobre{
-  width: 50%;     
+  width: 45%;     
  position: absolute;
  top: 110%;
  right: 7%;
@@ -637,31 +633,33 @@ h1{
   height:100%;  
 }
 .person-hr{
-  width: 180%;
+  width: 160%;
   height:1%;
   background-color:black;
 } 
 .estrutura{  
-  width:20%;
-  text-align: end;       
-  margin-bottom:10px;
-  font-size: 15px;
+  width:30%;
+   text-align: end;       
+  margin-left: 10%;
+  font-size: 22px;
   font-weight: 600;
-  }
+  position:absolute;
+   top: 5%;
+   right:25%; 
+ }
 span{
   font-weight: 900;
 }
 nav{
    width:45%;
-   height: auto;
+   height: 20%;
    position:absolute;
    top: 25%;
-   left:25%;     
+   left:30%;     
  }
 li{
-  font-size:10px;
-  text-align: end;  
-  margin-bottom:10px;   
+  font-size:12px;
+  text-align: end;
 }
 li:hover{
   background-color:tomato;
@@ -796,34 +794,36 @@ position: absolute;
 right: 85%;
 }
 .escolher{
-width: 100%;
+width: 80%;
 height: 100%;
 display: flex;
 flex-direction: column;
 align-items: flex-end;
 justify-content: flex-end;
-padding-top: 15%;
+
 }
 .explorar{
 width: 55%;
-height: 30%;
-display: flex;
+height: 50%;
+
 }
 h3{
 font-size: 35px;
+margin-top:5%;
+margin-bottom:8%;
 font-weight: normal;   
 }
 .escolher-donw{
-width: 50%;
-height: 30%;
+width: 60%;
+height: 20%;
 text-align: center;
 color: #ffffff;
 background-color: black;
 }
 .escolher-donw:hover{
 cursor: pointer; 
-transition: box-shadow 5s;
-box-shadow: inset  20vw 0  red;
+transition: box-shadow 13s;
+box-shadow: inset  30vw 0  red;
 }
 .text-escolher{
 width: 40%;
@@ -859,7 +859,7 @@ font-weight: 900;
 }
 .footer-hr{
 margin: 5% 0;
-width: 80%;
+width: 90%;
 height:1%;
 background-color:tomato;
 }
@@ -879,6 +879,11 @@ justify-content: space-between;
 width: 100%;
 height: 100%;
 }
+.baixar-play{
+  width:45%;
+  border-radius: 12%;
+  cursor: pointer;
+}
 .esta{
 height: 20%;
 margin: 5% 0 5% 0;
@@ -886,7 +891,6 @@ margin: 5% 0 5% 0;
 .darth{  
   width: 45%;
   height: 50%;
-border: solid;
 align-self: flex-end;
 position: absolute;
 top: 47%;
@@ -894,7 +898,7 @@ left: 10%;
 }
 .fig-darth{
   color:black;
-  width:90%;
+  width:100%;
   text-align: end;  
   font-size: 10px;   
   position: absolute;
@@ -902,6 +906,248 @@ left: 10%;
   }
 
 }
+@media(max-width: 250px) {
 
+header{
+  width:100%;
+  height: 30vh;
+  background-image: url(./img/star-topo.png);
+  background-repeat: no-repeat;
+  background-size: 120%; 
+}
+.cabecalho{
+    width:100%;
+    height: 91%;
+    position: relative;
+    left: 2%;
+}
 
+.kylo{
+  width: 70%;
+  height:114%;
+}
+.legiao{
+  width: 22%;
+  height: 35%;
+  position: absolute;
+  top: 67%;
+  left: 75%;
+}
+.legiao-p{
+ width: 100%;
+ height: 25%;
+ font-size: 7px;
+}
+.vermelho-jogo{
+  width: 100%;
+  height: 100vh;         
+  background-image: url(./img/sta\ uo\ robot.png);
+  background-repeat: no-repeat;
+  background-size:90%;
+position: relative;
+right: 10%;
+bottom: 30%;
+}
+.vermelho{
+  width: 65%;
+  height: 55%; 
+  background-image: url(./img/strom\ trupe\ red.png);
+  background-repeat: no-repeat;
+  background-size:95%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+     
+}
+.comece{
+  text-align: center;
+  width: 100%;
+  height: 45%;
+  color: #ffffff;    
+  font-size: 20px; 
+ 
+}
+.baixe{
+  width: 95%;
+  font-size: 50%;
+  color: #ffffff;
+ 
+}
+
+.jogo{
+  width: 65%;
+  height: 25%;
+  position: absolute;
+  left:45%; 
+ 
+}
+.personagem-nav{
+  width: 90%;
+  height: 120%;
+  position: relative; 
+  top: 95%; 
+  left: 10%;
+  display:flex;
+  justify-content: space-between;   
+}
+.sobre{
+  width:90%;     
+ position: absolute;
+ top: 100%;
+ left:15%;
+ 
+}
+.battlefront{
+  font-size: 8px;
+ text-align: end;
+}  
+
+h1{
+  text-align: end;
+  margin-left:40%;   
+width: 60%; 
+ }
+   
+.persona img{
+  width:90%;
+  height:100%;  
+}
+.person-hr{
+  width:30vh;
+  height:1%;
+  background-color:black;
+} 
+.estrutura{  
+ width:30%;
+   text-align: end;       
+  margin-left: 10%;
+  font-size: 12px; 
+  
+ }
+li{
+  font-size:5px;
+  text-align: end;
+}
+main{
+  width: 100%;
+  height: 380vh;
+ background-color: DimGrey;
+  position: relative;
+  top: 69%;
+  display: flex;        
+}
+.atributos{
+  font-size: 25px;
+  font-weight: 900;
+  color: #ffffff;
+  position: absolute;
+  left: 20%;   
+  
+}
+.fig-hierarquia{
+  width:90%; 
+  font-size: 5px;   
+  position: absolute;
+  left: 10%;
+    
+}
+.como{
+width: 80%;
+height: 20%;
+text-align: end;
+font-size: 20px; 
+}
+.end-main{
+width: 100%;
+height: 30%;
+
+}
+.capa-preta{
+width: 40%;
+height: 100%;
+position: absolute;
+right:125%;
+border: solid;  
+}
+.escolher{
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+justify-content: flex-end;
+border: solid;  
+
+}
+.explorar{
+width: 55%;
+height: 30%;
+
+}
+h3{
+font-size: 20px;
+margin-top:5%;
+margin-bottom:8%;
+font-weight: normal;   
+}
+.escolher-donw{
+width: 60%;
+height: 15%;
+text-align: center;
+color: #ffffff;
+background-color: black;
+}
+.escolher-donw:hover{
+cursor: pointer; 
+transition: box-shadow 13s;
+box-shadow: inset  30vw 0  red;
+}
+.text-escolher{
+width: 40%;
+height: 20%;
+font-size: 8px;
+text-align: center;
+}
+footer{
+width: 100%;
+height: 58%;
+position: relative;
+top:120%;
+display: flex;
+flex-direction: column; 
+}
+.footer-app{
+width: 100%;
+height: 70%;
+background-color: rgba(235, 101, 48, 0.753);
+position: relative;        
+} 
+.footer-hr{
+margin: 5% 0;
+width: 100%;
+height:1%;
+background-color:tomato;
+}
+.texto{
+width: 85%;
+font-size: 8px;    
+color: #ffffff;
+}
+
+.darth{  
+  width: 45%;
+  height: 40%;
+align-self: flex-end;
+position: absolute;
+top: 55%;
+left: 10%;
+}
+.fig-darth{
+  color:black;
+  width:100%;
+  text-align: end;  
+  font-size: 5px;   
+  position: absolute;
+  left: 50%;
+  }
 
