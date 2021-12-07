@@ -69,8 +69,7 @@ header{
      width: 80%;
     margin: 6% 0;
     height:2%;
-  background-color:black;
-   }
+    }
    .seta{
      width: 8%;
      text-align: center;
@@ -188,9 +187,10 @@ h1{
     
     }
 .person-hr{
-      width: 190%;
+      width: 65vw;
       margin-bottom:2%;
-      height:1%;
+      margin-left: 20%;
+      height:0.6%;
   background-color:black;
     }
       
@@ -474,17 +474,8 @@ justify-content: space-between;
   left: 60%;
 }
 @media(max-width: 600px) {
- *{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
- font-family: roboto , sans-serif;
- list-style:none;
- }
- body{
-   width: 100%;
-   height: 230vh;
- }
+ 
+
 header{
   width:100%;
   height: 48vh;
@@ -539,7 +530,6 @@ header{
  width: 80%;
 margin: 6% 0;
 height:2%;
-background-color:black;
 }
 .seta{
  width: 15%;
@@ -578,7 +568,14 @@ z-index: -2;
   height: 50%;
   color: #ffffff;     
  display: flex;
-
+}
+.btn-comece:hover{
+  cursor: pointer;
+   }
+.btn-comece{
+ cursor: pointer;
+  transition: box-shadow 5s;
+ box-shadow: inset  20vw 0  magenta;
 }
 .baixe{
   width: 90%;
@@ -586,7 +583,6 @@ z-index: -2;
   color: #ffffff;
   padding: 0 0 0 10%;
 }
-
 .jogo{
   width: 55%;
   height: 35%;
@@ -607,19 +603,22 @@ z-index: -2;
   justify-content: space-between;   
 }
 .sobre{
-  width: 45%;     
+  width: 85%;     
  position: absolute;
- top: 110%;
- right: 7%;
+ top: 108%;
+ right: 5%;
+ border-bottom:solid;
 }
+
 .battlefront{
   font-size: 13px;
  text-align: end;
+ margin-bottom: 1%;
 }  
  .hr-sobre{
  width: 30%;
  size: 15px;
- margin: 5% 0 5% 70%;    
+ margin: 4% 0 5% 70%;    
  height:20%;
 background-color:black;
 }
@@ -633,10 +632,9 @@ h1{
   height:100%;  
 }
 .person-hr{
-  width: 160%;
-  height:1%;
-  background-color:black;
-} 
+  width:0vh;
+  height:0%;
+ } 
 .estrutura{  
   width:30%;
    text-align: end;       
@@ -669,8 +667,7 @@ main{
   height: 380vh;
  background-color: DimGrey;
   position: relative;
-  top: 96%;
-  z-index: -2;
+  top: 98%;  
   display: flex;        
 }
 .atributos{
@@ -679,7 +676,7 @@ main{
   color: #ffffff;
   position: absolute;
   left: 20%;
-  top: 3.5%;  
+  top: 1%;  
 }
 .batalhas{
   width: 90%;
@@ -906,7 +903,7 @@ left: 10%;
   }
 
 }
-@media(max-width: 250px) {
+@media(max-width: 400px) {
 
 header{
   width:100%;
@@ -921,7 +918,6 @@ header{
     position: relative;
     left: 2%;
 }
-
 .kylo{
   width: 70%;
   height:114%;
@@ -964,22 +960,18 @@ bottom: 30%;
   width: 100%;
   height: 45%;
   color: #ffffff;    
-  font-size: 20px; 
- 
+  font-size: 20px;  
 }
 .baixe{
   width: 95%;
   font-size: 50%;
-  color: #ffffff;
- 
+  color: #ffffff; 
 }
-
 .jogo{
   width: 65%;
   height: 25%;
   position: absolute;
-  left:45%; 
- 
+  left:45%;  
 }
 .personagem-nav{
   width: 90%;
@@ -994,20 +986,17 @@ bottom: 30%;
   width:90%;     
  position: absolute;
  top: 100%;
- left:15%;
- 
+ left:15%; 
 }
 .battlefront{
   font-size: 8px;
  text-align: end;
 }  
-
 h1{
   text-align: end;
   margin-left:40%;   
 width: 60%; 
- }
-   
+ }   
 .persona img{
   width:90%;
   height:100%;  
@@ -1021,8 +1010,7 @@ width: 60%;
  width:30%;
    text-align: end;       
   margin-left: 10%;
-  font-size: 12px; 
-  
+  font-size: 12px;   
  }
 li{
   font-size:5px;
@@ -1048,8 +1036,7 @@ main{
   width:90%; 
   font-size: 5px;   
   position: absolute;
-  left: 10%;
-    
+  left: 10%;    
 }
 .como{
 width: 80%;
@@ -1060,14 +1047,12 @@ font-size: 20px;
 .end-main{
 width: 100%;
 height: 30%;
-
 }
 .capa-preta{
 width: 40%;
 height: 100%;
 position: absolute;
-right:125%;
-border: solid;  
+right:125%; 
 }
 .escolher{
 width: 100%;
@@ -1077,12 +1062,10 @@ flex-direction: column;
 align-items: flex-end;
 justify-content: flex-end;
 border: solid;  
-
 }
 .explorar{
 width: 55%;
 height: 30%;
-
 }
 h3{
 font-size: 20px;
@@ -1110,7 +1093,7 @@ text-align: center;
 }
 footer{
 width: 100%;
-height: 58%;
+height: 55%;
 position: relative;
 top:120%;
 display: flex;
@@ -1151,3 +1134,4 @@ left: 10%;
   left: 50%;
   }
 
+}
