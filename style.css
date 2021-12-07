@@ -223,14 +223,13 @@ li{
     li:hover{
       background-color:tomato;
     }
-    main{
-      
+    main{      
       width: 100%;
       height: 200vh;
      background-color: DimGrey;
       position: relative;
-      top: 56.5%;
-      z-index: -2;   
+      top: 56.5%; 
+      z-index: -2;
     }
     .atributos{
       font-size: 35px;
@@ -1417,20 +1416,21 @@ left: 10%;
     height: 100vh;         
     background-image: url(./img/sta\ uo\ robot.png);
     background-repeat: no-repeat;
-    background-size:90%;
+    background-size:100%;
   position: relative;
   right: 10%;
   bottom: 30%;
   }
   .vermelho{
     width: 60%;
-    height: 55%; 
+    height: 45%; 
     background-image: url(./img/strom\ trupe\ red.png);
     background-repeat: no-repeat;
-    background-size:100%;
+    background-size:150%;
     display: flex;
     flex-direction: column;
     position: absolute;
+    
     }
   .comece{
     text-align: center;
@@ -1475,7 +1475,7 @@ left: 10%;
     top: 95%; 
     left: 10%;
     display:flex;
-    justify-content: space-between;   
+    justify-content: space-around;   
   }
   .sobre{
     width:90%;     
@@ -1617,9 +1617,10 @@ left: 10%;
     height: 40%;
   align-self: flex-end;
   position: absolute;
-  top: 55%;
-  left: 10%;
-  }
+  top: 58%;
+  left: 1%;
+ 
+  }  
   .fig-darth{
     color:black;
     width:100%;
@@ -1629,4 +1630,64 @@ left: 10%;
     left: 50%;
     }
   
+  }
+  @media(max-width: 600px) {
+    .vermelho-jogo{
+      width: 100%;
+      height: 110vh;         
+      background-image: url(./img/sta\ uo\ robot.png);
+      background-repeat: no-repeat;
+      background-size:100%;
+    position: relative;
+        bottom: 30%;
+    }
+    .vermelho{
+    width: 50%;
+    height: 45%; 
+    background-image: url(./img/strom\ trupe\ red.png);
+    background-repeat: no-repeat;
+    background-size:150%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;    
+    }
+    .personagem-nav{
+      width: 90%;
+      height: 120%;
+      position: relative; 
+      top: 95%; 
+      left: 10%;
+      display:flex;
+      justify-content: space-between;   
+    }
+    .como{
+      width: 80%;
+      height: 10%;
+      padding: 15%;
+      text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+      color: #ffffff;
+    
+    }
+    
+    
+    .explorar{
+      width: 55%;
+      height: 55%; 
+     } 
+     .text-escolher{
+      width: 40%;
+      height: 20%;
+      font-size: 13px;
+      text-align: center;
+     }
+     main{      
+      width: 100%;
+      height: 350vh;
+     background-color: DimGrey;
+      position: relative;
+      top: 90%;
+      z-index: -2;   
+    }
   }
