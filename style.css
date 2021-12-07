@@ -346,7 +346,7 @@ font-weight: 900;
   position: absolute;
   top: 85%;
   left: 15%; 
-  border: regd solid;
+ 
 }
 .capa-preta{
   width: 50%;
@@ -400,8 +400,7 @@ h3{
  footer{
    width: 100%;
    height: 38%;
-   border: rd solid;
-   position: relative;
+      position: relative;
    top: 85%;
 }
  .footer-app{
@@ -570,13 +569,10 @@ z-index: -2;
  display: flex;
 }
 .btn-comece:hover{
-  cursor: pointer;
+   cursor: pointer; 
+  transition: box-shadow 1s;
+ box-shadow: inset  20vw 0  magenta; 
    }
-.btn-comece{
- cursor: pointer;
-  transition: box-shadow 5s;
- box-shadow: inset  20vw 0  magenta;
-}
 .baixe{
   width: 90%;
   font-size: 80%;
@@ -1061,7 +1057,7 @@ display: flex;
 flex-direction: column;
 align-items: flex-end;
 justify-content: flex-end;
-border: solid;  
+
 }
 .explorar{
 width: 55%;
@@ -1135,3 +1131,502 @@ left: 10%;
   }
 
 }
+@media(max-width: 300px) {
+
+  header{
+    width:100%;
+    height: 30vh;
+    background-image: url(./img/star-topo.png);
+    background-repeat: no-repeat;
+    background-size: 120%; 
+  }
+  .cabecalho{
+      width:100%;
+      height: 91%;
+      position: relative;
+      left: 2%;
+  }
+  .kylo{
+    width: 70%;
+    height:114%;
+  }
+  .legiao{
+    width: 22%;
+    height: 35%;
+    position: absolute;
+    top: 67%;
+    left: 75%;
+  }
+  .legiao-p{
+   width: 100%;
+   height: 25%;
+   font-size: 7px;
+  }
+  .vermelho-jogo{
+    width: 100%;
+    height: 100vh;         
+    background-image: url(./img/sta\ uo\ robot.png);
+    background-repeat: no-repeat;
+    background-size:90%;
+  position: relative;
+  right: 10%;
+  bottom: 30%;
+  }
+  .vermelho{
+    width: 60%;
+    height: 55%; 
+    background-image: url(./img/strom\ trupe\ red.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    }
+  .comece{
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    color: #ffffff;    
+    font-size: 20px;  
+  }
+  .baixe{
+    width: 90%;
+    font-size: 50%;
+    color: #ffffff; 
+  }
+  .btn-comece{
+      width: 70%;
+      height: 10%;
+      text-align: center;
+      color: #ffffff;
+      margin:  5% 15%;
+      border: #ffffff solid;
+      border-radius: 20% ;
+      background-color: transparent;     
+      }
+      .atualizacao{
+        font-size: 7px;
+        color: silver;
+        width:95%;       
+       text-align:end;
+       color: silver;
+       
+          }
+  .jogo{
+    width: 65%;
+    height: 25%;
+    position: absolute;
+    left:45%;  
+  }
+  .personagem-nav{
+    width: 90%;
+    height: 120%;
+    position: relative; 
+    top: 95%; 
+    left: 10%;
+    display:flex;
+    justify-content: space-between;   
+  }
+  .sobre{
+    width:90%;     
+   position: absolute;
+   top: 100%;
+   left:15%; 
+  }
+  .battlefront{
+    font-size: 8px;
+   text-align: end;
+  }  
+  h1{
+    text-align: end;
+    margin-left:40%;   
+  width: 60%; 
+   }   
+  .persona img{
+    width:90%;
+    height:100%;  
+  }
+  .person-hr{
+    width:30vh;
+    height:1%;
+    background-color:black;
+  } 
+  .estrutura{  
+   width:30%;
+     text-align: end;       
+    margin-left: 10%;
+    font-size: 12px;   
+   }
+  li{
+    font-size:5px;
+    text-align: end;
+  }
+  main{
+    width: 100%;
+    height: 380vh;
+   background-color: DimGrey;
+    position: relative;
+    top: 69%;
+    display: flex;        
+  }
+  .atributos{
+    font-size: 25px;
+    font-weight: 900;
+    color: #ffffff;
+    position: absolute;
+    left: 20%;   
+    
+  }
+  .fig-hierarquia{
+    width:90%; 
+    font-size: 5px;   
+    position: absolute;
+    left: 10%;    
+  }
+  .como{
+  width: 80%;
+  height: 20%;
+  text-align: end;
+  font-size: 20px; 
+  }
+  .end-main{
+  width: 100%;
+  height: 30%;
+  }
+  .capa-preta{
+  width: 40%;
+  height: 100%;
+  position: absolute;
+  right:125%; 
+  }
+  .escolher{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+ 
+  }
+  .explorar{
+  width: 55%;
+  height: 30%;
+  }
+  h3{
+  font-size: 20px;
+  margin-top:5%;
+  margin-bottom:8%;
+  font-weight: normal;   
+  }
+  .escolher-donw{
+  width: 60%;
+  height: 15%;
+  text-align: center;
+  color: #ffffff;
+  background-color: black;
+  }
+  .escolher-donw:hover{
+  cursor: pointer; 
+  transition: box-shadow 13s;
+  box-shadow: inset  30vw 0  red;
+  }
+  .text-escolher{
+  width: 40%;
+  height: 20%;
+  font-size: 8px;
+  text-align: center;
+  }
+  footer{
+  width: 100%;
+  height: 55%;
+  position: relative;
+  top:120%;
+  display: flex;
+  flex-direction: column; 
+  }
+  .footer-app{
+  width: 100%;
+  height: 70%;
+  background-color: rgba(235, 101, 48, 0.753);
+  position: relative;        
+  } 
+  .footer-hr{
+  margin: 5% 0;
+  width: 100%;
+  height:1%;
+  background-color:tomato;
+  }
+  .texto{
+  width: 85%;
+  font-size: 8px;    
+  color: #ffffff;
+  }
+  
+  .darth{  
+    width: 45%;
+    height: 40%;
+  align-self: flex-end;
+  position: absolute;
+  top: 55%;
+  left: 10%;
+  }
+  .fig-darth{
+    color:black;
+    width:100%;
+    text-align: end;  
+    font-size: 5px;   
+    position: absolute;
+    left: 50%;
+    }
+  
+  }
+  
+@media(max-width: 200px) {
+
+  header{
+    width:100%;
+    height: 30vh;
+    background-image: url(./img/star-topo.png);
+    background-repeat: no-repeat;
+    background-size: 120%; 
+  }
+  .cabecalho{
+      width:100%;
+      height: 91%;
+      position: relative;
+      left: 2%;
+  }
+  .kylo{
+    width: 70%;
+    height:114%;
+  }
+  .legiao{
+    width: 22%;
+    height: 35%;
+    position: absolute;
+    top: 67%;
+    left: 75%;
+  }
+  .legiao-p{
+   width: 100%;
+   height: 25%;
+   font-size: 7px;
+  }
+  .vermelho-jogo{
+    width: 100%;
+    height: 100vh;         
+    background-image: url(./img/sta\ uo\ robot.png);
+    background-repeat: no-repeat;
+    background-size:90%;
+  position: relative;
+  right: 10%;
+  bottom: 30%;
+  }
+  .vermelho{
+    width: 60%;
+    height: 55%; 
+    background-image: url(./img/strom\ trupe\ red.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    }
+  .comece{
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    color: #ffffff;    
+    font-size: 20px;  
+  }
+  .baixe{
+    width: 90%;
+    font-size: 50%;
+    color: #ffffff; 
+  }
+  .btn-comece{
+      width: 70%;
+      height: 10%;
+      text-align: center;
+      color: #ffffff;
+      margin:  5% 15%;
+      border: #ffffff solid;
+      border-radius: 20% ;
+      background-color: transparent;     
+      }
+      .atualizacao{
+        font-size: 7px;
+        color: silver;
+        width:95%;       
+       text-align:end;
+       color: silver;
+       
+          }
+  .jogo{
+    width: 65%;
+    height: 25%;
+    position: absolute;
+    left:45%;  
+  }
+  .personagem-nav{
+    width: 90%;
+    height: 120%;
+    position: relative; 
+    top: 95%; 
+    left: 10%;
+    display:flex;
+    justify-content: space-between;   
+  }
+  .sobre{
+    width:90%;     
+   position: absolute;
+   top: 100%;
+   left:15%; 
+  }
+  .battlefront{
+    font-size: 8px;
+   text-align: end;
+  }  
+  h1{
+    text-align: end;
+    margin-left:40%;   
+  width: 60%; 
+   }   
+  .persona img{
+    width:90%;
+    height:100%;  
+  }
+  .person-hr{
+    width:30vh;
+    height:1%;
+    background-color:black;
+  } 
+  .estrutura{  
+   width:30%;
+     text-align: end;       
+    margin-left: 10%;
+    font-size: 12px;   
+   }
+  li{
+    font-size:5px;
+    text-align: end;
+  }
+  main{
+    width: 100%;
+    height: 380vh;
+   background-color: DimGrey;
+    position: relative;
+    top: 69%;
+    display: flex;        
+  }
+  .atributos{
+    font-size: 25px;
+    font-weight: 900;
+    color: #ffffff;
+    position: absolute;
+    left: 20%;   
+    
+  }
+  .fig-hierarquia{
+    width:90%; 
+    font-size: 5px;   
+    position: absolute;
+    left: 10%;    
+  }
+  .como{
+  width: 80%;
+  height: 20%;
+  text-align: end;
+  font-size: 20px; 
+  }
+  .end-main{
+  width: 100%;
+  height: 30%;
+  }
+  .capa-preta{
+  width: 30%;
+  height: 90%;
+  position: absolute;
+  right:155%; 
+  }
+  .escolher{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end; 
+  }
+  .explorar{
+  width: 55%;
+  height: 30%;
+  }
+  h3{
+  font-size: 20px;
+  margin-top:5%;
+  margin-bottom:8%;
+  font-weight: normal;   
+  }
+  .escolher-donw{
+  width: 60%;
+  height: 15%;
+  text-align: center;
+  color: #ffffff;
+  background-color: black;
+  font-size: 10px;
+  }
+  .escolher-donw:hover{
+  cursor: pointer; 
+  transition: box-shadow 13s;
+  box-shadow: inset  30vw 0  red;
+  }
+  .text-escolher{
+  width: 40%;
+  height: 20%;
+  font-size: 8px;
+  text-align: center;
+  }
+  footer{
+  width: 100%;
+  height: 55%;
+  position: relative;
+  top:120%;
+  display: flex;
+  flex-direction: column; 
+  }
+  .footer-app{
+  width: 100%;
+  height: 70%;
+  background-color: rgba(235, 101, 48, 0.753);
+  position: relative;        
+  } 
+  .footer-hr{
+  margin: 5% 0;
+  width: 100%;
+  height:1%;
+  background-color:tomato;
+  }
+  .texto{
+  width: 85%;
+  font-size: 8px;    
+  color: #ffffff;
+  }
+  
+  .darth{  
+    width: 45%;
+    height: 40%;
+  align-self: flex-end;
+  position: absolute;
+  top: 55%;
+  left: 10%;
+  }
+  .fig-darth{
+    color:black;
+    width:100%;
+    text-align: end;  
+    font-size: 5px;   
+    position: absolute;
+    left: 50%;
+    }
+  
+  }
