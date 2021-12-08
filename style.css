@@ -253,16 +253,17 @@ li{
       
   .mayor {
     width:50%;
-    height:85%;   
+    height:93%;   
     position: absolute;  
     left:1%;
-    top: 6%;
+    top: 2%;
    }
   .mayor:hover{
-    background-image: url(./img/urn_aaid_sc_US_aaf75fc2-eba3-41ec-bc48-de80d0615154.png);
+    background-image: url(./img/novos-graficos.png);
     background-repeat: no-repeat;
-    background-size: 100%;
-  }
+    background-size: 98%;
+    background-color: red;  
+    }
   
   .ma1{
     position: absolute;
@@ -271,9 +272,10 @@ li{
     width:24%;
  }
   .ma1:hover{
-    background-image: url(./img/urn_aaid_sc_US_aaf75fc2-eba3-41ec-bc48-de80d0615154.png);
+    background-image: url(./img/novos-graficos.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-color: red;
  }
   .ma2{
     position: absolute;
@@ -282,9 +284,10 @@ li{
     width: 24%;
  }
   .ma2:hover{
-    background-image: url(./img/urn_aaid_sc_US_aaf75fc2-eba3-41ec-bc48-de80d0615154.png);
+    background-image: url(./img/novos-graficos.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-color: red;
 }
   .ma3{
     position: absolute;
@@ -293,9 +296,10 @@ li{
     width: 24%;
   }
   .ma3:hover{
-    background-image: url(./img/urn_aaid_sc_US_aaf75fc2-eba3-41ec-bc48-de80d0615154.png);
+    background-image: url(./img/novos-graficos.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-color: red;
 }
   .ma4{
     position: absolute;
@@ -304,9 +308,10 @@ li{
     width: 24%;
   }
   .ma4:hover{
-    background-image: url(./img/urn_aaid_sc_US_aaf75fc2-eba3-41ec-bc48-de80d0615154.png);
+    background-image: url(./img/novos-graficos.png);
     background-repeat: no-repeat;
-    background-size: 100%;     
+    background-size: 100%;
+    background-color: red;     
 }
 .hierarquia{
       width: 80%;   
@@ -472,11 +477,9 @@ justify-content: space-between;
   left: 60%;
 }
 @media(max-width: 600px) {
- 
-
 header{
   width:100%;
-  height: 48vh;
+  height: 55vh;
   background-image: url(./img/star-topo.png);
   background-repeat: no-repeat;
   background-size: 100%; 
@@ -496,21 +499,22 @@ header{
 .star-wars img.star{
   width: 21%;
   position: absolute;
-  top: 55%;
-  left: 20%;
+  top: 53%;
+  left: 21%;
 }
 .star-wars img.wars{
   width: 21%;
   position: absolute;
-  top: 55%;
+  top: 53%;
   right: 14%;
 }
 .kylo{
   width: 70%;
-  height: 100%;
+  height: vh;
   position: absolute; 
-  top: 10%;
+  top: 1%;
   left: 9%;
+  z-index: 11;
  }
 .legiao{
   width: 15%;
@@ -542,14 +546,13 @@ height:2%;
   height: 130vh;         
   background-image: url(./img/sta\ uo\ robot.png);
   background-repeat: no-repeat;
-  background-size:60%; 
+  background-size: 80%; 
   display: flex;
 justify-content: flex-end;
 position: relative;
-z-index: -2;
 }
 .vermelho{
-  width: 50%;
+  width: 45%;
   height: 60%; 
   background-image: url(./img/strom\ trupe\ red.png);
   background-repeat: no-repeat;
@@ -558,19 +561,21 @@ z-index: -2;
   flex-direction: column;
   position: absolute;
   bottom: 30%;
-  left:45%;       
+  left:50%;       
 }
 .comece{
-  text-align: center;
   width: 100%;
-  height: 50%;
+  height: 45%;
   color: #ffffff;     
  display: flex;
+ justify-content: center;
+ border: solid;
+ font-size: 30px;
 }
 .btn-comece:hover{
    cursor: pointer; 
   transition: box-shadow 1s;
- box-shadow: inset  20vw 0  magenta; 
+ box-shadow: inset  55vw 0  greenyellow; 
    }
 .baixe{
   width: 90%;
@@ -579,7 +584,7 @@ z-index: -2;
   padding: 0 0 0 10%;
 }
 .jogo{
-  width: 55%;
+  width: 50%;
   height: 35%;
   position: absolute;
   top: 75%;
@@ -589,16 +594,17 @@ z-index: -2;
   height: 90%;
 }
 .personagem-nav{
-  width: 90%;
-  height: 120%;
+  width: 95%;
+  height: 60vh;
   position: relative; 
-  top: 95%; 
-  left: 10%;
+  top: 86%; 
+  left: 1%;
   display:flex;
   justify-content: space-between;   
+  
 }
 .sobre{
-  width: 85%;     
+  width: 80%;     
  position: absolute;
  top: 108%;
  right: 5%;
@@ -666,84 +672,66 @@ main{
   display: flex;        
 }
 .atributos{
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 900;
   color: #ffffff;
   position: absolute;
-  left: 20%;
+  left: 30%;
   top: 1%;  
 }
 .batalhas{
-  width: 90%;
+  width: 80%;
   height: 65%;  
  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;   
-  top: 7%;
+  top: 5%;
+  left: 10%;
+ 
 }  
 .mayor{
-width:95%;
+width:100%;
 height:20%; 
 display: flex;
 flex-direction: column;
 position: absolute;
 top: 1%;
 }
-.mayor:hover{
-background-image: url(./img/urn_aaid_sc_US_aaf75fc2-eba3-41ec-bc48-de80d0615154.png);
-background-repeat: no-repeat;
-background-size: 100%;
-}
+
 .ma1{
-  width: 95%;
+  width: 100%;
   height: 20%;
   position: absolute;
   left: 1%;
   top: 21%;
 }
-.ma1:hover{
-background-image: url(./img/urn_aaid_sc_US_aaf75fc2-eba3-41ec-bc48-de80d0615154.png);
-background-repeat: no-repeat;
-background-size: 100%;
-}
+
 .ma2{
-  width: 95%;
+  width: 100%;
   height: 20%;
   position: absolute;
   left: 1%;
   top: 41%;
 }
-.ma2:hover{
-background-image: url(./img/urn_aaid_sc_US_aaf75fc2-eba3-41ec-bc48-de80d0615154.png);
-background-repeat: no-repeat;
-background-size: 100%;  
-}
+
 .ma3{
-  width: 95%;
+  width: 100%;
   height: 20%;
   position: absolute;
   left: 1%;
   top:61%;
 }
-.ma3:hover{
-background-image: url(./img/urn_aaid_sc_US_aaf75fc2-eba3-41ec-bc48-de80d0615154.png);
-background-repeat: no-repeat;
-background-size: 100%;
-}
+
 .ma4{
-  width: 95%;
+  width: 100%;
   height: 20%;
   position: absolute;
   left: 1%;
   top:81%;
 }
-.ma4:hover{
-background-image: url(./img/urn_aaid_sc_US_aaf75fc2-eba3-41ec-bc48-de80d0615154.png);
-background-repeat: no-repeat;
-background-size: 100%;     
-}
+
 .hierarquia{
   width: 85%;   
   height: 18%;   
@@ -898,796 +886,3 @@ left: 10%;
   }
 
 }
-@media(max-width: 400px) {
-
-header{
-  width:100%;
-  height: 30vh;
-  background-image: url(./img/star-topo.png);
-  background-repeat: no-repeat;
-  background-size: 120%; 
-}
-.cabecalho{
-    width:100%;
-    height: 91%;
-    position: relative;
-    left: 2%;
-}
-.kylo{
-  width: 70%;
-  height:114%;
-}
-.legiao{
-  width: 22%;
-  height: 35%;
-  position: absolute;
-  top: 67%;
-  left: 75%;
-}
-.legiao-p{
- width: 100%;
- height: 25%;
- font-size: 7px;
-}
-.vermelho-jogo{
-  width: 100%;
-  height: 100vh;         
-  background-image: url(./img/sta\ uo\ robot.png);
-  background-repeat: no-repeat;
-  background-size:90%;
-position: relative;
-right: 10%;
-bottom: 30%;
-}
-.vermelho{
-  width: 65%;
-  height: 55%; 
-  background-image: url(./img/strom\ trupe\ red.png);
-  background-repeat: no-repeat;
-  background-size:95%;
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-     
-}
-.comece{
-  text-align: center;
-  width: 100%;
-  height: 45%;
-  color: #ffffff;    
-  font-size: 20px;  
-}
-.baixe{
-  width: 95%;
-  font-size: 50%;
-  color: #ffffff; 
-}
-.jogo{
-  width: 65%;
-  height: 25%;
-  position: absolute;
-  left:45%;  
-}
-.personagem-nav{
-  width: 90%;
-  height: 120%;
-  position: relative; 
-  top: 95%; 
-  left: 10%;
-  display:flex;
-  justify-content: space-between;   
-}
-.sobre{
-  width:90%;     
- position: absolute;
- top: 100%;
- left:15%; 
-}
-.battlefront{
-  font-size: 8px;
- text-align: end;
-}  
-h1{
-  text-align: end;
-  margin-left:40%;   
-width: 60%; 
- }   
-.persona img{
-  width:90%;
-  height:100%;  
-}
-.person-hr{
-  width:30vh;
-  height:1%;
-  background-color:black;
-} 
-.estrutura{  
- width:30%;
-   text-align: end;       
-  margin-left: 10%;
-  font-size: 12px;   
- }
-li{
-  font-size:5px;
-  text-align: end;
-}
-main{
-  width: 100%;
-  height: 380vh;
- background-color: DimGrey;
-  position: relative;
-  top: 69%;
-  display: flex;        
-}
-.atributos{
-  font-size: 25px;
-  font-weight: 900;
-  color: #ffffff;
-  position: absolute;
-  left: 20%;   
-  
-}
-.fig-hierarquia{
-  width:90%; 
-  font-size: 5px;   
-  position: absolute;
-  left: 10%;    
-}
-.como{
-width: 80%;
-height: 20%;
-text-align: end;
-font-size: 20px; 
-}
-.end-main{
-width: 100%;
-height: 30%;
-}
-.capa-preta{
-width: 40%;
-height: 100%;
-position: absolute;
-right:125%; 
-}
-.escolher{
-width: 100%;
-height: 100%;
-display: flex;
-flex-direction: column;
-align-items: flex-end;
-justify-content: flex-end;
-
-}
-.explorar{
-width: 55%;
-height: 30%;
-}
-h3{
-font-size: 20px;
-margin-top:5%;
-margin-bottom:8%;
-font-weight: normal;   
-}
-.escolher-donw{
-width: 60%;
-height: 15%;
-text-align: center;
-color: #ffffff;
-background-color: black;
-}
-.escolher-donw:hover{
-cursor: pointer; 
-transition: box-shadow 13s;
-box-shadow: inset  30vw 0  red;
-}
-.text-escolher{
-width: 40%;
-height: 20%;
-font-size: 8px;
-text-align: center;
-}
-footer{
-width: 100%;
-height: 55%;
-position: relative;
-top:120%;
-display: flex;
-flex-direction: column; 
-}
-.footer-app{
-width: 100%;
-height: 70%;
-background-color: rgba(235, 101, 48, 0.753);
-position: relative;        
-} 
-.footer-hr{
-margin: 5% 0;
-width: 100%;
-height:1%;
-background-color:tomato;
-}
-.texto{
-width: 85%;
-font-size: 8px;    
-color: #ffffff;
-}
-
-.darth{  
-  width: 45%;
-  height: 40%;
-align-self: flex-end;
-position: absolute;
-top: 55%;
-left: 10%;
-}
-.fig-darth{
-  color:black;
-  width:100%;
-  text-align: end;  
-  font-size: 5px;   
-  position: absolute;
-  left: 50%;
-  }
-
-}
-@media(max-width: 300px) {
-
-  header{
-    width:100%;
-    height: 30vh;
-    background-image: url(./img/star-topo.png);
-    background-repeat: no-repeat;
-    background-size: 120%; 
-  }
-  .cabecalho{
-      width:100%;
-      height: 91%;
-      position: relative;
-      left: 2%;
-  }
-  .kylo{
-    width: 70%;
-    height:114%;
-  }
-  .legiao{
-    width: 22%;
-    height: 35%;
-    position: absolute;
-    top: 67%;
-    left: 75%;
-  }
-  .legiao-p{
-   width: 100%;
-   height: 25%;
-   font-size: 7px;
-  }
-  .vermelho-jogo{
-    width: 100%;
-    height: 100vh;         
-    background-image: url(./img/sta\ uo\ robot.png);
-    background-repeat: no-repeat;
-    background-size:90%;
-  position: relative;
-  right: 10%;
-  bottom: 30%;
-  }
-  .vermelho{
-    width: 60%;
-    height: 55%; 
-    background-image: url(./img/strom\ trupe\ red.png);
-    background-repeat: no-repeat;
-    background-size:100%;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    }
-  .comece{
-    text-align: center;
-    width: 100%;
-    height: 40%;
-    color: #ffffff;    
-    font-size: 20px;  
-  }
-  .baixe{
-    width: 90%;
-    font-size: 50%;
-    color: #ffffff; 
-  }
-  .btn-comece{
-      width: 70%;
-      height: 10%;
-      text-align: center;
-      color: #ffffff;
-      margin:  5% 15%;
-      border: #ffffff solid;
-      border-radius: 20% ;
-      background-color: transparent;     
-      }
-      .atualizacao{
-        font-size: 7px;
-        color: silver;
-        width:95%;       
-       text-align:end;
-       color: silver;
-       
-          }
-  .jogo{
-    width: 65%;
-    height: 25%;
-    position: absolute;
-    left:45%;  
-  }
-  .personagem-nav{
-    width: 90%;
-    height: 120%;
-    position: relative; 
-    top: 95%; 
-    left: 10%;
-    display:flex;
-    justify-content: space-between;   
-  }
-  .sobre{
-    width:90%;     
-   position: absolute;
-   top: 100%;
-   left:15%; 
-  }
-  .battlefront{
-    font-size: 8px;
-   text-align: end;
-  }  
-  h1{
-    text-align: end;
-    margin-left:40%;   
-  width: 60%; 
-   }   
-  .persona img{
-    width:90%;
-    height:100%;  
-  }
-  .person-hr{
-    width:30vh;
-    height:1%;
-    background-color:black;
-  } 
-  .estrutura{  
-   width:30%;
-     text-align: end;       
-    margin-left: 10%;
-    font-size: 12px;   
-   }
-  li{
-    font-size:5px;
-    text-align: end;
-  }
-  main{
-    width: 100%;
-    height: 380vh;
-   background-color: DimGrey;
-    position: relative;
-    top: 69%;
-    display: flex;        
-  }
-  .atributos{
-    font-size: 25px;
-    font-weight: 900;
-    color: #ffffff;
-    position: absolute;
-    left: 20%;   
-    
-  }
-  .fig-hierarquia{
-    width:90%; 
-    font-size: 5px;   
-    position: absolute;
-    left: 10%;    
-  }
-  .como{
-  width: 80%;
-  height: 20%;
-  text-align: end;
-  font-size: 20px; 
-  }
-  .end-main{
-  width: 100%;
-  height: 30%;
-  }
-  .capa-preta{
-  width: 40%;
-  height: 100%;
-  position: absolute;
-  right:125%; 
-  }
-  .escolher{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: flex-end;
- 
-  }
-  .explorar{
-  width: 55%;
-  height: 30%;
-  }
-  h3{
-  font-size: 20px;
-  margin-top:5%;
-  margin-bottom:8%;
-  font-weight: normal;   
-  }
-  .escolher-donw{
-  width: 60%;
-  height: 15%;
-  text-align: center;
-  color: #ffffff;
-  background-color: black;
-  }
-  .escolher-donw:hover{
-  cursor: pointer; 
-  transition: box-shadow 13s;
-  box-shadow: inset  30vw 0  red;
-  }
-  .text-escolher{
-  width: 40%;
-  height: 20%;
-  font-size: 8px;
-  text-align: center;
-  }
-  footer{
-  width: 100%;
-  height: 55%;
-  position: relative;
-  top:120%;
-  display: flex;
-  flex-direction: column; 
-  }
-  .footer-app{
-  width: 100%;
-  height: 70%;
-  background-color: rgba(235, 101, 48, 0.753);
-  position: relative;        
-  } 
-  .footer-hr{
-  margin: 5% 0;
-  width: 100%;
-  height:1%;
-  background-color:tomato;
-  }
-  .texto{
-  width: 85%;
-  font-size: 8px;    
-  color: #ffffff;
-  }
-  
-  .darth{  
-    width: 45%;
-    height: 40%;
-  align-self: flex-end;
-  position: absolute;
-  top: 55%;
-  left: 10%;
-  }
-  .fig-darth{
-    color:black;
-    width:100%;
-    text-align: end;  
-    font-size: 5px;   
-    position: absolute;
-    left: 50%;
-    }
-  
-  }
-  
-@media(max-width: 200px) {
-
-  header{
-    width:100%;
-    height: 30vh;
-    background-image: url(./img/star-topo.png);
-    background-repeat: no-repeat;
-    background-size: 120%; 
-  }
-  .cabecalho{
-      width:100%;
-      height: 91%;
-      position: relative;
-      left: 2%;
-  }
-  .kylo{
-    width: 70%;
-    height:114%;
-  }
-  .legiao{
-    width: 22%;
-    height: 35%;
-    position: absolute;
-    top: 67%;
-    left: 75%;
-  }
-  .legiao-p{
-   width: 100%;
-   height: 25%;
-   font-size: 7px;
-  }
-  .vermelho-jogo{
-    width: 100%;
-    height: 100vh;         
-    background-image: url(./img/sta\ uo\ robot.png);
-    background-repeat: no-repeat;
-    background-size:100%;
-  position: relative;
-  right: 10%;
-  bottom: 30%;
-  }
-  .vermelho{
-    width: 60%;
-    height: 45%; 
-    background-image: url(./img/strom\ trupe\ red.png);
-    background-repeat: no-repeat;
-    background-size:150%;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    
-    }
-  .comece{
-    text-align: center;
-    width: 100%;
-    height: 40%;
-    color: #ffffff;    
-    font-size: 20px;  
-  }
-  .baixe{
-    width: 90%;
-    font-size: 50%;
-    color: #ffffff; 
-  }
-  .btn-comece{
-      width: 70%;
-      height: 10%;
-      text-align: center;
-      color: #ffffff;
-      margin:  5% 15%;
-      border: #ffffff solid;
-      border-radius: 20% ;
-      background-color: transparent;     
-      }
-      .atualizacao{
-        font-size: 7px;
-        color: silver;
-        width:95%;       
-       text-align:end;
-       color: silver;
-       
-          }
-  .jogo{
-    width: 65%;
-    height: 25%;
-    position: absolute;
-    left:45%;  
-  }
-  .personagem-nav{
-    width: 90%;
-    height: 120%;
-    position: relative; 
-    top: 95%; 
-    left: 10%;
-    display:flex;
-    justify-content: space-around;   
-  }
-  .sobre{
-    width:90%;     
-   position: absolute;
-   top: 100%;
-   left:15%; 
-  }
-  .battlefront{
-    font-size: 8px;
-   text-align: end;
-  }  
-  h1{
-    text-align: end;
-    margin-left:40%;   
-  width: 60%; 
-   }   
-  .persona img{
-    width:90%;
-    height:100%;  
-  }
-  .person-hr{
-    width:30vh;
-    height:1%;
-    background-color:black;
-  } 
-  .estrutura{  
-   width:30%;
-     text-align: end;       
-    margin-left: 10%;
-    font-size: 12px;   
-   }
-  li{
-    font-size:5px;
-    text-align: end;
-  }
-  main{
-    width: 100%;
-    height: 380vh;
-   background-color: DimGrey;
-    position: relative;
-    top: 69%;
-    display: flex;        
-  }
-  .atributos{
-    font-size: 25px;
-    font-weight: 900;
-    color: #ffffff;
-    position: absolute;
-    left: 20%;   
-    
-  }
-  .fig-hierarquia{
-    width:90%; 
-    font-size: 5px;   
-    position: absolute;
-    left: 10%;    
-  }
-  .como{
-  width: 80%;
-  height: 20%;
-  text-align: end;
-  font-size: 20px; 
-  }
-  .end-main{
-  width: 100%;
-  height: 30%;
-  }
-  .capa-preta{
-  width: 30%;
-  height: 90%;
-  position: absolute;
-  right:155%; 
-  }
-  .escolher{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: flex-end; 
-  }
-  .explorar{
-  width: 55%;
-  height: 30%;
-  }
-  h3{
-  font-size: 20px;
-  margin-top:5%;
-  margin-bottom:8%;
-  font-weight: normal;   
-  }
-  .escolher-donw{
-  width: 60%;
-  height: 15%;
-  text-align: center;
-  color: #ffffff;
-  background-color: black;
-  font-size: 10px;
-  }
-  .escolher-donw:hover{
-  cursor: pointer; 
-  transition: box-shadow 13s;
-  box-shadow: inset  30vw 0  red;
-  }
-  .text-escolher{
-  width: 40%;
-  height: 20%;
-  font-size: 8px;
-  text-align: center;
-  }
-  footer{
-  width: 100%;
-  height: 55%;
-  position: relative;
-  top:120%;
-  display: flex;
-  flex-direction: column; 
-  }
-  .footer-app{
-  width: 100%;
-  height: 70%;
-  background-color: rgba(235, 101, 48, 0.753);
-  position: relative;        
-  } 
-  .footer-hr{
-  margin: 5% 0;
-  width: 100%;
-  height:1%;
-  background-color:tomato;
-  }
-  .texto{
-  width: 85%;
-  font-size: 8px;    
-  color: #ffffff;
-  }
-  
-  .darth{  
-    width: 45%;
-    height: 40%;
-  align-self: flex-end;
-  position: absolute;
-  top: 58%;
-  left: 1%;
- 
-  }  
-  .fig-darth{
-    color:black;
-    width:100%;
-    text-align: end;  
-    font-size: 5px;   
-    position: absolute;
-    left: 50%;
-    }
-  
-  }
-  @media(max-width: 600px) {
-    .vermelho-jogo{
-      width: 100%;
-      height: 110vh;         
-      background-image: url(./img/sta\ uo\ robot.png);
-      background-repeat: no-repeat;
-      background-size:100%;
-    position: relative;
-        bottom: 30%;
-    }
-    .vermelho{
-    width: 50%;
-    height: 45%; 
-    background-image: url(./img/strom\ trupe\ red.png);
-    background-repeat: no-repeat;
-    background-size:150%;
-    display: flex;
-    flex-direction: column;
-    position: absolute;    
-    }
-    .personagem-nav{
-      width: 90%;
-      height: 120%;
-      position: relative; 
-      top: 95%; 
-      left: 10%;
-      display:flex;
-      justify-content: space-between;   
-    }
-    .como{
-      width: 80%;
-      height: 10%;
-      padding: 15%;
-      text-align: center;
-    font-size: 30px;
-    font-weight: 900;
-      color: #ffffff;
-    
-    }
-    
-    
-    .explorar{
-      width: 55%;
-      height: 55%; 
-     } 
-     .text-escolher{
-      width: 40%;
-      height: 20%;
-      font-size: 13px;
-      text-align: center;
-     }
-     main{      
-      width: 100%;
-      height: 350vh;
-     background-color: DimGrey;
-      position: relative;
-      top: 90%;
-      z-index: -2;   
-    }
-  }
